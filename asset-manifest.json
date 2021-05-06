@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/helly/static/css/main.c4db2fd1.chunk.css",
-    "main.js": "/helly/static/js/main.6bd5688d.chunk.js",
-    "main.js.map": "/helly/static/js/main.6bd5688d.chunk.js.map",
-    "runtime-main.js": "/helly/static/js/runtime-main.d3c8c142.js",
-    "runtime-main.js.map": "/helly/static/js/runtime-main.d3c8c142.js.map",
-    "static/js/2.5cad88f0.chunk.js": "/helly/static/js/2.5cad88f0.chunk.js",
-    "static/js/2.5cad88f0.chunk.js.map": "/helly/static/js/2.5cad88f0.chunk.js.map",
-    "static/js/3.2372c32c.chunk.js": "/helly/static/js/3.2372c32c.chunk.js",
-    "static/js/3.2372c32c.chunk.js.map": "/helly/static/js/3.2372c32c.chunk.js.map",
+    "main.css": "/helly/static/css/main.29ffe1eb.chunk.css",
+    "main.js": "/helly/static/js/main.5e8bff8d.chunk.js",
+    "main.js.map": "/helly/static/js/main.5e8bff8d.chunk.js.map",
+    "runtime-main.js": "/helly/static/js/runtime-main.e5a4046f.js",
+    "runtime-main.js.map": "/helly/static/js/runtime-main.e5a4046f.js.map",
+    "static/js/2.55db418a.chunk.js": "/helly/static/js/2.55db418a.chunk.js",
+    "static/js/2.55db418a.chunk.js.map": "/helly/static/js/2.55db418a.chunk.js.map",
+    "static/js/3.f86cc057.chunk.js": "/helly/static/js/3.f86cc057.chunk.js",
+    "static/js/3.f86cc057.chunk.js.map": "/helly/static/js/3.f86cc057.chunk.js.map",
     "index.html": "/helly/index.html",
-    "static/css/main.c4db2fd1.chunk.css.map": "/helly/static/css/main.c4db2fd1.chunk.css.map",
-    "static/js/2.5cad88f0.chunk.js.LICENSE.txt": "/helly/static/js/2.5cad88f0.chunk.js.LICENSE.txt",
+    "static/css/main.29ffe1eb.chunk.css.map": "/helly/static/css/main.29ffe1eb.chunk.css.map",
+    "static/js/2.55db418a.chunk.js.LICENSE.txt": "/helly/static/js/2.55db418a.chunk.js.LICENSE.txt",
     "static/media/index.css": "/helly/static/media/Inter-Regular.fc49d131.woff",
-    "static/media/header-image.d73d10f6.jpg": "/helly/static/media/header-image.d73d10f6.jpg"
+    "static/media/header-image.d73d10f6.jpg": "/helly/static/media/header-image.d73d10f6.jpg",
+    "static/media/instagram_icon.29815840.svg": "/helly/static/media/instagram_icon.29815840.svg",
+    "static/media/vk_icon.23f02b39.svg": "/helly/static/media/vk_icon.23f02b39.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d3c8c142.js",
-    "static/js/2.5cad88f0.chunk.js",
-    "static/css/main.c4db2fd1.chunk.css",
-    "static/js/main.6bd5688d.chunk.js"
+    "static/js/runtime-main.e5a4046f.js",
+    "static/js/2.55db418a.chunk.js",
+    "static/css/main.29ffe1eb.chunk.css",
+    "static/js/main.5e8bff8d.chunk.js"
   ]
 }
