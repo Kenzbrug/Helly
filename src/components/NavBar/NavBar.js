@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 function NavBar() {
   return (
     <div className='navbar'>
-      <div className='navbar__container'>
+      <nav className='navbar__container'>
         <div className='navbar_dark'></div>
         <ul className='navbar__lists'>
           <li className='navbar__list'>
@@ -53,7 +53,7 @@ function NavBar() {
             </NavLink>
           </li>
         </ul>
-      </div>
+      </nav>
     </div>
   );
 }

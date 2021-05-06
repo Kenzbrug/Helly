@@ -1,0 +1,14 @@
+.dog-training {
+    min-height: 700px;
+    background-color: #FFD394;
+    padding: 60px 0;
+}
+
+.dog-training__title {
+    font-family: 'Varela-Regular', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.21;
+    margin: 50px 0 50px 150px;
+}

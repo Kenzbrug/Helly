@@ -26,11 +26,16 @@
 }
 
 .navbar__link {
+    font-family: 'Varela-Regular', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.21;
     text-decoration:none;
-    color: #fff;
+    color: #CDFC05;
 }
 .navbar__list:hover {
-    background-color: #A8C5A8;
+    background-color: #07E69B;
 }
 
 .navbar__link:hover {
@@ -44,7 +49,7 @@
     top: 0;
     background-color: #000;
     opacity: .3;
-    height: 40px;
+    height: 38px;
     width: 100%;
     z-index: 10;
 }

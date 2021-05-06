@@ -26,3 +26,11 @@
   src: url("Inter-Black.woff2?v=3.13") format("woff2"),
        url("Inter-Black.woff?v=3.13") format("woff");
 }
+
+@font-face {
+  font-family: 'Varela-Regular';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Varela-Regular.woff2") format("woff2");
+}
