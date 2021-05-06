@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Helly/static/css/main.2432f0fc.chunk.css",
-    "main.js": "/Helly/static/js/main.6bd5688d.chunk.js",
-    "main.js.map": "/Helly/static/js/main.6bd5688d.chunk.js.map",
-    "runtime-main.js": "/Helly/static/js/runtime-main.441aa7f7.js",
-    "runtime-main.js.map": "/Helly/static/js/runtime-main.441aa7f7.js.map",
-    "static/js/2.5cad88f0.chunk.js": "/Helly/static/js/2.5cad88f0.chunk.js",
-    "static/js/2.5cad88f0.chunk.js.map": "/Helly/static/js/2.5cad88f0.chunk.js.map",
-    "static/js/3.2372c32c.chunk.js": "/Helly/static/js/3.2372c32c.chunk.js",
-    "static/js/3.2372c32c.chunk.js.map": "/Helly/static/js/3.2372c32c.chunk.js.map",
-    "index.html": "/Helly/index.html",
-    "static/css/main.2432f0fc.chunk.css.map": "/Helly/static/css/main.2432f0fc.chunk.css.map",
-    "static/js/2.5cad88f0.chunk.js.LICENSE.txt": "/Helly/static/js/2.5cad88f0.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/Helly/static/media/Inter-Regular.fc49d131.woff",
-    "static/media/header-image.d73d10f6.jpg": "/Helly/static/media/header-image.d73d10f6.jpg"
+    "main.css": "/helly/static/css/main.c4db2fd1.chunk.css",
+    "main.js": "/helly/static/js/main.6bd5688d.chunk.js",
+    "main.js.map": "/helly/static/js/main.6bd5688d.chunk.js.map",
+    "runtime-main.js": "/helly/static/js/runtime-main.d3c8c142.js",
+    "runtime-main.js.map": "/helly/static/js/runtime-main.d3c8c142.js.map",
+    "static/js/2.5cad88f0.chunk.js": "/helly/static/js/2.5cad88f0.chunk.js",
+    "static/js/2.5cad88f0.chunk.js.map": "/helly/static/js/2.5cad88f0.chunk.js.map",
+    "static/js/3.2372c32c.chunk.js": "/helly/static/js/3.2372c32c.chunk.js",
+    "static/js/3.2372c32c.chunk.js.map": "/helly/static/js/3.2372c32c.chunk.js.map",
+    "index.html": "/helly/index.html",
+    "static/css/main.c4db2fd1.chunk.css.map": "/helly/static/css/main.c4db2fd1.chunk.css.map",
+    "static/js/2.5cad88f0.chunk.js.LICENSE.txt": "/helly/static/js/2.5cad88f0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/helly/static/media/Inter-Regular.fc49d131.woff",
+    "static/media/header-image.d73d10f6.jpg": "/helly/static/media/header-image.d73d10f6.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.441aa7f7.js",
+    "static/js/runtime-main.d3c8c142.js",
     "static/js/2.5cad88f0.chunk.js",
-    "static/css/main.2432f0fc.chunk.css",
+    "static/css/main.c4db2fd1.chunk.css",
     "static/js/main.6bd5688d.chunk.js"
   ]
 }
