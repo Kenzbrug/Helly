@@ -1,26 +1,32 @@
 {
   "files": {
-    "main.css": "/helly/static/css/main.518d13be.chunk.css",
-    "main.js": "/helly/static/js/main.6662d981.chunk.js",
-    "main.js.map": "/helly/static/js/main.6662d981.chunk.js.map",
-    "runtime-main.js": "/helly/static/js/runtime-main.b47fec39.js",
-    "runtime-main.js.map": "/helly/static/js/runtime-main.b47fec39.js.map",
-    "static/js/2.55db418a.chunk.js": "/helly/static/js/2.55db418a.chunk.js",
-    "static/js/2.55db418a.chunk.js.map": "/helly/static/js/2.55db418a.chunk.js.map",
-    "static/js/3.50153b28.chunk.js": "/helly/static/js/3.50153b28.chunk.js",
-    "static/js/3.50153b28.chunk.js.map": "/helly/static/js/3.50153b28.chunk.js.map",
+    "main.css": "/helly/static/css/main.56ccd83a.chunk.css",
+    "main.js": "/helly/static/js/main.275cb822.chunk.js",
+    "main.js.map": "/helly/static/js/main.275cb822.chunk.js.map",
+    "runtime-main.js": "/helly/static/js/runtime-main.d48894af.js",
+    "runtime-main.js.map": "/helly/static/js/runtime-main.d48894af.js.map",
+    "static/js/2.243d84fe.chunk.js": "/helly/static/js/2.243d84fe.chunk.js",
+    "static/js/2.243d84fe.chunk.js.map": "/helly/static/js/2.243d84fe.chunk.js.map",
+    "static/js/3.820d1f7e.chunk.js": "/helly/static/js/3.820d1f7e.chunk.js",
+    "static/js/3.820d1f7e.chunk.js.map": "/helly/static/js/3.820d1f7e.chunk.js.map",
     "index.html": "/helly/index.html",
-    "static/css/main.518d13be.chunk.css.map": "/helly/static/css/main.518d13be.chunk.css.map",
-    "static/js/2.55db418a.chunk.js.LICENSE.txt": "/helly/static/js/2.55db418a.chunk.js.LICENSE.txt",
+    "static/css/main.56ccd83a.chunk.css.map": "/helly/static/css/main.56ccd83a.chunk.css.map",
+    "static/js/2.243d84fe.chunk.js.LICENSE.txt": "/helly/static/js/2.243d84fe.chunk.js.LICENSE.txt",
+    "static/media/1.6673332a.jpg": "/helly/static/media/1.6673332a.jpg",
+    "static/media/2.060d4d1e.jpg": "/helly/static/media/2.060d4d1e.jpg",
+    "static/media/3.449a672d.jpg": "/helly/static/media/3.449a672d.jpg",
+    "static/media/4.8c842e61.jpg": "/helly/static/media/4.8c842e61.jpg",
+    "static/media/5.ed7e7b7f.jpg": "/helly/static/media/5.ed7e7b7f.jpg",
     "static/media/index.css": "/helly/static/media/Varela-Regular.5da377b3.woff2",
     "static/media/header-image.d73d10f6.jpg": "/helly/static/media/header-image.d73d10f6.jpg",
     "static/media/instagram_icon.29815840.svg": "/helly/static/media/instagram_icon.29815840.svg",
+    "static/media/ImagePopup.css": "/helly/static/media/popup__close-button.b9c42c3d.svg",
     "static/media/vk_icon.23f02b39.svg": "/helly/static/media/vk_icon.23f02b39.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b47fec39.js",
-    "static/js/2.55db418a.chunk.js",
-    "static/css/main.518d13be.chunk.css",
-    "static/js/main.6662d981.chunk.js"
+    "static/js/runtime-main.d48894af.js",
+    "static/js/2.243d84fe.chunk.js",
+    "static/css/main.56ccd83a.chunk.css",
+    "static/js/main.275cb822.chunk.js"
   ]
 }
