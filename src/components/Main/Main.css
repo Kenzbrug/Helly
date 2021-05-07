@@ -1,6 +1,6 @@
 .main {
     min-height: 700px;
-    background-color: #FFD394;
+    background-color: #fff;
     padding: 60px 0;
 }
 
@@ -50,13 +50,14 @@
 .main__container-club-tasks {
     width: 70%;
     margin: 0 auto;
-    background-color: #CDFC05;
+    background-color: #F9F9F7;
     padding: 35px 30px;
     font-family: 'Varela-Regular', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     line-height: 1.5;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 
 .main__club-tasks {

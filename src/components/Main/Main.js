@@ -5,7 +5,7 @@ function Main() {
     <section className='main'>
       <div className='main__main'>
         <h1 className='main__title'>
-          ДОБРО ПОЖАЛОВАТЬ НА САЙТ КЛУБА GLOBAL ELITE "KUPA"
+          ДОБРО ПОЖАЛОВАТЬ НА САЙТ КИНОЛОГИЧЕСКОГО ЦЕНТРА ELITE "KUPA"
         </h1>
         <p className='main__subtitle'>
           Национальный Клуб Породы "Бордер-колли"

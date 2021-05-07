@@ -1,9 +1,21 @@
 import './DogTraining.css';
+import { arrayTrainingDogsImgs } from '../../utils/constants';
+import Card from '../Card/Card';
 
-function DogTraining() {
+function DogTraining({ onCardClick }) {
   return (
     <section className='dog-training'>
-      <h1 className='dog-training__title'>DogTraining!</h1>
+      <ul className='dog-training__lists'>
+        {arrayTrainingDogsImgs.map((trainingDogsImg) => {
+          return (
+            <Card
+              card={trainingDogsImg}
+              onCardClick={onCardClick}
+              key={trainingDogsImg.id}
+            />
+          );
+        })}
+      </ul>
     </section>
   );
 }

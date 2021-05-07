@@ -5,9 +5,24 @@ import OurPats from '../OurPats/OurPats';
 import DogTraining from '../DogTraining/DogTraining';
 import OurPuppies from '../OurPuppies/OurPuppies';
 import Contacts from '../Contacts/Contacts';
-import { Switch, withRouter, Route } from 'react-router-dom';
+import ImagePopup from '../ImagePopup/ImagePopup';
+import { Switch, withRouter, Route, Redirect } from 'react-router-dom';
+import { useState } from 'react';
 
 function App() {
+  const [openPopupImg, setOpenPopupImg] = useState(false);
+  const [selectedCard, setIsSelectedCard] = useState(undefined);
+
+  function handleCardClick(card) {
+    setOpenPopupImg(true);
+    setIsSelectedCard(card);
+  }
+
+  function closePopup() {
+    setIsSelectedCard(undefined);
+    setOpenPopupImg(false);
+  }
+
   return (
     <div className='body'>
       <Header />
@@ -19,7 +34,7 @@ function App() {
           <OurPats />
         </Route>
         <Route exact path='/dog-training'>
-          <DogTraining />
+          <DogTraining onCardClick={handleCardClick} />
         </Route>
         <Route exact path='/our-puppies'>
           <OurPuppies />
@@ -27,8 +42,16 @@ function App() {
         <Route exact path='/сontacts'>
           <Contacts />
         </Route>
+        <Route path='*'>
+          <Redirect to='/' />
+        </Route>
       </Switch>
       <Footer />
+      <ImagePopup
+        onClose={closePopup}
+        openPopupImg={openPopupImg}
+        dataCard={selectedCard}
+      />
     </div>
   );
 }

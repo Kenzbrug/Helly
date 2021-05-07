@@ -9,7 +9,7 @@ function Footer() {
         <ul className='footer__lists'>
           <li className='footer__list'>
             <a
-              href='https://vk.com/hellyhorse'
+              href='https://vk.com/globalelitedogs'
               target='blank'
               className='footer__link'
             >
@@ -22,7 +22,7 @@ function Footer() {
           </li>
           <li className='footer__list'>
             <a
-              href='https://vk.com/hellyhorse'
+              href='https://www.instagram.com/globalelitedogs/'
               target='blank'
               className='footer__link'
             >

@@ -1,0 +1,11 @@
+.card-dog-training__img {
+    width: 390px;
+    height: 260px;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.5);
+    transition: .3s
+}
+
+.card-dog-training__img:hover {
+    transform: scale(1.03)
+}
+
