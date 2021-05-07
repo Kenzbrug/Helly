@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/helly/static/css/main.56ccd83a.chunk.css",
-    "main.js": "/helly/static/js/main.275cb822.chunk.js",
-    "main.js.map": "/helly/static/js/main.275cb822.chunk.js.map",
-    "runtime-main.js": "/helly/static/js/runtime-main.d48894af.js",
-    "runtime-main.js.map": "/helly/static/js/runtime-main.d48894af.js.map",
-    "static/js/2.243d84fe.chunk.js": "/helly/static/js/2.243d84fe.chunk.js",
-    "static/js/2.243d84fe.chunk.js.map": "/helly/static/js/2.243d84fe.chunk.js.map",
-    "static/js/3.820d1f7e.chunk.js": "/helly/static/js/3.820d1f7e.chunk.js",
-    "static/js/3.820d1f7e.chunk.js.map": "/helly/static/js/3.820d1f7e.chunk.js.map",
+    "main.css": "/helly/static/css/main.cfab29e1.chunk.css",
+    "main.js": "/helly/static/js/main.53ee083c.chunk.js",
+    "main.js.map": "/helly/static/js/main.53ee083c.chunk.js.map",
+    "runtime-main.js": "/helly/static/js/runtime-main.7c30b477.js",
+    "runtime-main.js.map": "/helly/static/js/runtime-main.7c30b477.js.map",
+    "static/js/2.eca88a24.chunk.js": "/helly/static/js/2.eca88a24.chunk.js",
+    "static/js/2.eca88a24.chunk.js.map": "/helly/static/js/2.eca88a24.chunk.js.map",
+    "static/js/3.ee36e435.chunk.js": "/helly/static/js/3.ee36e435.chunk.js",
+    "static/js/3.ee36e435.chunk.js.map": "/helly/static/js/3.ee36e435.chunk.js.map",
     "index.html": "/helly/index.html",
-    "static/css/main.56ccd83a.chunk.css.map": "/helly/static/css/main.56ccd83a.chunk.css.map",
-    "static/js/2.243d84fe.chunk.js.LICENSE.txt": "/helly/static/js/2.243d84fe.chunk.js.LICENSE.txt",
+    "static/css/main.cfab29e1.chunk.css.map": "/helly/static/css/main.cfab29e1.chunk.css.map",
+    "static/js/2.eca88a24.chunk.js.LICENSE.txt": "/helly/static/js/2.eca88a24.chunk.js.LICENSE.txt",
     "static/media/1.6673332a.jpg": "/helly/static/media/1.6673332a.jpg",
     "static/media/2.060d4d1e.jpg": "/helly/static/media/2.060d4d1e.jpg",
     "static/media/3.449a672d.jpg": "/helly/static/media/3.449a672d.jpg",
@@ -24,9 +24,9 @@
     "static/media/vk_icon.23f02b39.svg": "/helly/static/media/vk_icon.23f02b39.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d48894af.js",
-    "static/js/2.243d84fe.chunk.js",
-    "static/css/main.56ccd83a.chunk.css",
-    "static/js/main.275cb822.chunk.js"
+    "static/js/runtime-main.7c30b477.js",
+    "static/js/2.eca88a24.chunk.js",
+    "static/css/main.cfab29e1.chunk.css",
+    "static/js/main.53ee083c.chunk.js"
   ]
 }
