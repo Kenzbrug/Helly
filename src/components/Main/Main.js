@@ -4,6 +4,21 @@ function Main() {
   return (
     <section className='main'>
       <div className='main__main'>
+
+
+
+        <div className='main__dropdown'>
+          <button className='main__dropbtn'>DropBTN
+            <i className='fa fa-caret-down'></i>
+          </button>
+          <div className="main__dropdown-content">
+            <a href="1" className='main__link main__link_dropdown-content' >Наша Чивви</a>
+            <a href="1" className='main__link main__link_dropdown-content' >Кони</a>
+            <a href="1" className='main__link main__link_dropdown-content' >Кролики</a>
+          </div>
+        </div>
+
+
         <h1 className='main__title'>
           ДОБРО ПОЖАЛОВАТЬ НА САЙТ КИНОЛОГИЧЕСКОГО ЦЕНТРА GLOBAL ELITE "KUPA"
         </h1>
