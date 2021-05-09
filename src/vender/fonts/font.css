@@ -34,3 +34,11 @@
   font-display: swap;
   src: url("Varela-Regular.woff2") format("woff2");
 }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Montserrat-Regular.ttf") format("ttf");
+}

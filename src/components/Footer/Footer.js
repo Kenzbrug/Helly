@@ -1,7 +1,6 @@
 import './Footer.css';
-// import '../../images';
-import VkIcon from '../../images/vk_icon.svg';
-import InstagramIcon from '../../images/instagram_icon.svg';
+import VkIcon from '../../images/footer-vk_icon.svg';
+import InstagramIcon from '../../images/footer-instagram_icon.svg';
 function Footer() {
   return (
     <footer className='footer'>
