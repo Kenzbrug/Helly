@@ -6,53 +6,44 @@ function NavBar() {
     <div className='navbar'>
       <nav className='navbar__container'>
         <div className='navbar_dark'></div>
-        <ul className='navbar__lists'>
-          <li className='navbar__list'>
-            <NavLink activeClassName='' className='navbar__link' exact to='/'>
-              Главная
+        <NavLink activeClassName='navbar__link_active' className='navbar__link' exact to='/'>
+          Главная
             </NavLink>
-          </li>
-          <li className='navbar__list'>
-            <NavLink
-              activeClassName='navbar__link_active'
-              className='navbar__link'
-              exact
-              to='/our-pats'
-            >
-              Наши питомцы
+        <NavLink
+          activeClassName='navbar__link_active'
+          className='navbar__link'
+          exact
+          to='/our-pats'
+        >
+          Наши питомцы
             </NavLink>
-          </li>
-          <li className='navbar__list'>
-            <NavLink
-              activeClassName='navbar__link_active'
-              className='navbar__link'
-              exact
-              to='/dog-training'
-            >
-              Дрессировка собак
+        <NavLink
+          activeClassName='navbar__link_active'
+          className='navbar__link'
+          exact
+          to='/dog-training'
+        >
+          Дрессировка собак
             </NavLink>
-          </li>
-          <li className='navbar__list'>
-            <NavLink
-              activeClassName='navbar__link_active'
-              className='navbar__link'
-              exact
-              to='/our-puppies'
-            >
-              Наши щенки
+
+        <NavLink
+          activeClassName='navbar__link_active'
+          className='navbar__link'
+          exact
+          to='/our-puppies'
+        >
+          Наши щенки
             </NavLink>
-          </li>
-          <li className='navbar__list'>
-            <NavLink
-              activeClassName='navbar__link_active'
-              className='navbar__link'
-              exact
-              to='/сontacts'
-            >
-              Контакты
+
+        <NavLink
+          activeClassName='navbar__link_active'
+          className='navbar__link'
+          exact
+          to='/сontacts'
+        >
+          Контакты
             </NavLink>
-          </li>
-        </ul>
+
       </nav>
     </div>
   );

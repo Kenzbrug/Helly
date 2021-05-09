@@ -2,7 +2,10 @@
     width: 390px;
     height: 260px;
     box-shadow: 0 5px 5px 0 rgba(0,0,0,0.5);
-    transition: .3s
+    transition: .3s;
+    cursor: pointer;
+    object-fit: contain;
+    background-color: #F8F8F7;
 }
 
 .card-dog-training__img:hover {

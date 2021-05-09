@@ -35,7 +35,7 @@ function Footer() {
           </li>
         </ul>
       </nav>
-      <h4 class='footer__author'>&copy;2021 Helly</h4>
+      <h4 className='footer__author'>&copy;2021 Helly</h4>
     </footer>
   );
 }

@@ -48,5 +48,5 @@
 
 
 .popup__close-button:hover {
-    opacity: 0.6;
+    background-image: url(../../images/popup__close-button-hover.svg);
 }
