@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/helly/static/css/main.61f360d5.chunk.css",
-    "main.js": "/helly/static/js/main.cd96c369.chunk.js",
-    "main.js.map": "/helly/static/js/main.cd96c369.chunk.js.map",
+    "main.css": "/helly/static/css/main.8ef36615.chunk.css",
+    "main.js": "/helly/static/js/main.484c3e41.chunk.js",
+    "main.js.map": "/helly/static/js/main.484c3e41.chunk.js.map",
     "runtime-main.js": "/helly/static/js/runtime-main.7c30b477.js",
     "runtime-main.js.map": "/helly/static/js/runtime-main.7c30b477.js.map",
     "static/js/2.679e61fe.chunk.js": "/helly/static/js/2.679e61fe.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.ee36e435.chunk.js": "/helly/static/js/3.ee36e435.chunk.js",
     "static/js/3.ee36e435.chunk.js.map": "/helly/static/js/3.ee36e435.chunk.js.map",
     "index.html": "/helly/index.html",
-    "static/css/main.61f360d5.chunk.css.map": "/helly/static/css/main.61f360d5.chunk.css.map",
+    "static/css/main.8ef36615.chunk.css.map": "/helly/static/css/main.8ef36615.chunk.css.map",
     "static/js/2.679e61fe.chunk.js.LICENSE.txt": "/helly/static/js/2.679e61fe.chunk.js.LICENSE.txt",
     "static/media/1.6673332a.jpg": "/helly/static/media/1.6673332a.jpg",
     "static/media/2.060d4d1e.jpg": "/helly/static/media/2.060d4d1e.jpg",
@@ -18,15 +18,16 @@
     "static/media/4.8c842e61.jpg": "/helly/static/media/4.8c842e61.jpg",
     "static/media/5.ed7e7b7f.jpg": "/helly/static/media/5.ed7e7b7f.jpg",
     "static/media/index.css": "/helly/static/media/Varela-Regular.5da377b3.woff2",
+    "static/media/contacts-vkontakte_icon.48afd638.svg": "/helly/static/media/contacts-vkontakte_icon.48afd638.svg",
+    "static/media/footer-instagram_icon.29815840.svg": "/helly/static/media/footer-instagram_icon.29815840.svg",
+    "static/media/footer-vk_icon.23f02b39.svg": "/helly/static/media/footer-vk_icon.23f02b39.svg",
     "static/media/header-image.d73d10f6.jpg": "/helly/static/media/header-image.d73d10f6.jpg",
-    "static/media/instagram_icon.29815840.svg": "/helly/static/media/instagram_icon.29815840.svg",
-    "static/media/ImagePopup.css": "/helly/static/media/popup__close-button.b9c42c3d.svg",
-    "static/media/vk_icon.23f02b39.svg": "/helly/static/media/vk_icon.23f02b39.svg"
+    "static/media/ImagePopup.css": "/helly/static/media/popup__close-button.b9c42c3d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7c30b477.js",
     "static/js/2.679e61fe.chunk.js",
-    "static/css/main.61f360d5.chunk.css",
-    "static/js/main.cd96c369.chunk.js"
+    "static/css/main.8ef36615.chunk.css",
+    "static/js/main.484c3e41.chunk.js"
   ]
 }
