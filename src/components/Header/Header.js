@@ -3,7 +3,7 @@ import headerImage from '../../images/header-image.jpg';
 
 import NavBar from '../NavBar/NavBar';
 
-function Header() {
+function Header({ location }) {
   return (
     <header className='header'>
       <img
@@ -11,7 +11,7 @@ function Header() {
         src={headerImage}
         alt='Наша собачка Чивви'
       />
-      <NavBar />
+      <NavBar location={location} />
     </header>
   );
 }

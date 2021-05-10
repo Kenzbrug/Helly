@@ -5,11 +5,21 @@ import OurPats from '../OurPats/OurPats';
 import DogTraining from '../DogTraining/DogTraining';
 import OurPuppies from '../OurPuppies/OurPuppies';
 import Contacts from '../Contacts/Contacts';
+import Rabbits from '../Rabbits/Rabbits';
+import Horses from '../Horses/Horses';
+import Dogs from '../Dogs/Dogs';
 import ImagePopup from '../ImagePopup/ImagePopup';
-import { Switch, withRouter, Route, Redirect } from 'react-router-dom';
+import {
+  useLocation,
+  Switch,
+  withRouter,
+  Route,
+  Redirect,
+} from 'react-router-dom';
 import { useState } from 'react';
 
 function App() {
+  const { pathname } = useLocation();
   const [openPopupImg, setOpenPopupImg] = useState(false);
   const [selectedCard, setIsSelectedCard] = useState(undefined);
 
@@ -25,7 +35,7 @@ function App() {
 
   return (
     <div className='body'>
-      <Header />
+      <Header location={pathname} />
       <Switch>
         <Route exact path='/'>
           <Main />
@@ -38,6 +48,15 @@ function App() {
         </Route>
         <Route exact path='/our-puppies'>
           <OurPuppies />
+        </Route>
+        <Route exact path='/dogs'>
+          <Dogs />
+        </Route>
+        <Route exact path='/horses'>
+          <Horses />
+        </Route>
+        <Route exact path='/rabbits'>
+          <Rabbits />
         </Route>
         <Route exact path='/сontacts'>
           <Contacts />
