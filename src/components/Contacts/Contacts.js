@@ -53,13 +53,14 @@ function Contacts() {
             </ul>
           </nav>
         </div>
-        <div className='contacts__map'>
+        <div className='contacts__container-map'>
           <iframe
             title='Карта до Ропши'
             src='https://yandex.ru/map-widget/v1/?um=constructor%3A5f85ff97c8adb72b94c2a46adb1c8382b7e52e8a8f7d6c4af917b41c277616d3&amp;source=constructor'
             width='529'
             height='437'
             frameBorder='0'
+            className='contacts__map'
           ></iframe>
         </div>
       </div>
