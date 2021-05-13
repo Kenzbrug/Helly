@@ -101,3 +101,38 @@
     display: block;
     margin: -20px 0 0 0 ;
 }
+
+
+/* media */
+
+@media screen and (max-width: 1050px) {
+    .navbar__link_dropdown-content {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar__link {
+        font-size: 12px;
+        height: 30px;
+    }
+    .navbar__container {
+        
+        top: -30px;
+    }
+    .navbar__dark {
+        height: 30px;
+    }
+    .navbar__link_dropdown-content {
+        padding: 8px 12px;
+        width: 126px;
+    }
+    .navbar__dropbtn {
+        margin: 8px auto;
+        font-size: 12px;
+        height: 30px;
+    }
+    .navbar__dropdown:hover .navbar__dropdown-content {
+        margin: -16px 0 0 0 ;
+    }
+}

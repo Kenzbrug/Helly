@@ -52,6 +52,20 @@
 }
 .footer__link:hover::before {
     filter: blur(2px);
-    transform: scale(1.13);
+    transform: scale(1.2);
     box-shadow: 0 0 15px #FFF000;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__social-icon {
+        height: 36px;
+        width: 36px;
+    }
+    .footer__link:before {
+        height: 36px;
+        width: 36px;
+    }
+    .footer__author {
+        font-size: 12px;
+    }
 }

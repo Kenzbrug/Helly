@@ -58,7 +58,23 @@
     line-height: 1.5;
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
-
 .main__club-tasks {
     margin: 0 auto 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        padding: 45px 0;
+    }
+    .main__title {
+        font-size: 40px;
+        width: 90%;
+    }
+    .main__subtitle {
+        font-size: 18px;
+    }
+    .main__container-club-tasks {
+        width: 80%;
+        font-size: 20px;
+    }
 }
