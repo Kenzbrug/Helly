@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/helly/static/css/main.bfcd1ba5.chunk.css",
-    "main.js": "/helly/static/js/main.a619dc75.chunk.js",
-    "main.js.map": "/helly/static/js/main.a619dc75.chunk.js.map",
-    "runtime-main.js": "/helly/static/js/runtime-main.37123836.js",
-    "runtime-main.js.map": "/helly/static/js/runtime-main.37123836.js.map",
-    "static/js/2.e3cc4a36.chunk.js": "/helly/static/js/2.e3cc4a36.chunk.js",
-    "static/js/2.e3cc4a36.chunk.js.map": "/helly/static/js/2.e3cc4a36.chunk.js.map",
-    "static/js/3.c780ad53.chunk.js": "/helly/static/js/3.c780ad53.chunk.js",
-    "static/js/3.c780ad53.chunk.js.map": "/helly/static/js/3.c780ad53.chunk.js.map",
+    "main.css": "/helly/static/css/main.1946a51d.chunk.css",
+    "main.js": "/helly/static/js/main.4ee87bc7.chunk.js",
+    "main.js.map": "/helly/static/js/main.4ee87bc7.chunk.js.map",
+    "runtime-main.js": "/helly/static/js/runtime-main.9a93dd1c.js",
+    "runtime-main.js.map": "/helly/static/js/runtime-main.9a93dd1c.js.map",
+    "static/js/2.80f44dd0.chunk.js": "/helly/static/js/2.80f44dd0.chunk.js",
+    "static/js/2.80f44dd0.chunk.js.map": "/helly/static/js/2.80f44dd0.chunk.js.map",
+    "static/js/3.87b1eece.chunk.js": "/helly/static/js/3.87b1eece.chunk.js",
+    "static/js/3.87b1eece.chunk.js.map": "/helly/static/js/3.87b1eece.chunk.js.map",
     "index.html": "/helly/index.html",
-    "static/css/main.bfcd1ba5.chunk.css.map": "/helly/static/css/main.bfcd1ba5.chunk.css.map",
-    "static/js/2.e3cc4a36.chunk.js.LICENSE.txt": "/helly/static/js/2.e3cc4a36.chunk.js.LICENSE.txt",
+    "static/css/main.1946a51d.chunk.css.map": "/helly/static/css/main.1946a51d.chunk.css.map",
+    "static/js/2.80f44dd0.chunk.js.LICENSE.txt": "/helly/static/js/2.80f44dd0.chunk.js.LICENSE.txt",
     "static/media/1.6673332a.jpg": "/helly/static/media/1.6673332a.jpg",
     "static/media/2.060d4d1e.jpg": "/helly/static/media/2.060d4d1e.jpg",
     "static/media/3.449a672d.jpg": "/helly/static/media/3.449a672d.jpg",
@@ -22,12 +22,16 @@
     "static/media/footer-instagram_icon.29815840.svg": "/helly/static/media/footer-instagram_icon.29815840.svg",
     "static/media/footer-vk_icon.23f02b39.svg": "/helly/static/media/footer-vk_icon.23f02b39.svg",
     "static/media/header-image.d73d10f6.jpg": "/helly/static/media/header-image.d73d10f6.jpg",
-    "static/media/ImagePopup.css": "/helly/static/media/popup__close-button.b9c42c3d.svg"
+    "static/media/main-qyi.7c07bf43.jpg": "/helly/static/media/main-qyi.7c07bf43.jpg",
+    "static/media/ImagePopup.css": "/helly/static/media/popup__close-button.b9c42c3d.svg",
+    "static/media/qyi1.a7ee0ed6.jpg": "/helly/static/media/qyi1.a7ee0ed6.jpg",
+    "static/media/qyi2.d66a7379.jpg": "/helly/static/media/qyi2.d66a7379.jpg",
+    "static/media/qyi3.48693b91.jpg": "/helly/static/media/qyi3.48693b91.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.37123836.js",
-    "static/js/2.e3cc4a36.chunk.js",
-    "static/css/main.bfcd1ba5.chunk.css",
-    "static/js/main.a619dc75.chunk.js"
+    "static/js/runtime-main.9a93dd1c.js",
+    "static/js/2.80f44dd0.chunk.js",
+    "static/css/main.1946a51d.chunk.css",
+    "static/js/main.4ee87bc7.chunk.js"
   ]
 }
