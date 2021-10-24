@@ -4,6 +4,11 @@ import img3 from '../images/DogTraining/3.jpg';
 import img4 from '../images/DogTraining/4.jpg';
 import img5 from '../images/DogTraining/5.jpg';
 
+import qyi1 from '../images/QueenYaroslava/qyi1.jpg';
+import qyi2 from '../images/QueenYaroslava/qyi2.jpg';
+import qyi3 from '../images/QueenYaroslava/qyi3.jpg';
+import mainQyi from '../images/QueenYaroslava//main-qyi.jpg';
+
 const arrayTrainingDogsImgs = [
   {
     img: img1,
@@ -32,4 +37,27 @@ const arrayTrainingDogsImgs = [
   },
 ];
 
-export { arrayTrainingDogsImgs };
+const queenYaroslavaImage = [
+  {
+    img: mainQyi,
+    name: 'Царица Ярослава',
+    id: 1,
+  },
+  {
+    img: qyi1,
+    name: 'Царица Ярослава',
+    id: 2,
+  },
+  {
+    img: qyi2,
+    name: 'Царица Ярослава',
+    id: 3,
+  },
+  {
+    img: qyi3,
+    name: 'Царица Ярослава',
+    id: 4,
+  },
+];
+
+export { arrayTrainingDogsImgs, queenYaroslavaImage };

@@ -14,9 +14,7 @@ function Contacts() {
       <div className='contacts__container-main'>
         <div className='contacts__contacts'>
           <p className='contacts__subtitle'>адрес</p>
-          <h3 className='contacts__addres'>
-            г.Санкт-Петербург, Стрельнинское шоссе, д.Ропша
-          </h3>
+          <h3 className='contacts__addres'>г.Санкт-Петербург, Стрельнинское шоссе, д.Ропша</h3>
           <p className='contacts__subtitle'>телефон</p>
           <h3 className='contacts__addres'>8904-555-333-0</h3>
           <p className='contacts__subtitle'>режим работы</p>
@@ -25,29 +23,13 @@ function Contacts() {
           <nav className='contacts__links'>
             <ul className='contacts__lists'>
               <li className='contacts__list'>
-                <a
-                  href='https://vk.com/globalelitedogs'
-                  target='blank'
-                  className='contacts__link'
-                >
-                  <img
-                    src={VkIcon}
-                    alt='ВКонтакте'
-                    className='contacts__social-icon'
-                  />
+                <a href='https://vk.com/globalelitedogs' target='blank' className='contacts__link'>
+                  <img src={VkIcon} alt='ВКонтакте' className='contacts__social-icon' />
                 </a>
               </li>
               <li className='contacts__list'>
-                <a
-                  href='https://www.instagram.com/globalelitedogs/'
-                  target='blank'
-                  className='contacts__link'
-                >
-                  <img
-                    src={Instagram}
-                    alt='Инстаграм'
-                    className='contacts__social-icon'
-                  />
+                <a href='https://www.instagram.com/globalelitedogs/' target='blank' className='contacts__link'>
+                  <img src={Instagram} alt='Инстаграм' className='contacts__social-icon' />
                 </a>
               </li>
             </ul>

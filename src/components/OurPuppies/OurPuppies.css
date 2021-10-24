@@ -1,13 +1,14 @@
 .our-puppies {
-    min-height: 700px;
-    padding: 60px 0;
+  min-height: 700px;
+  padding: 60px 0;
 }
 
 .our-puppies__title {
-    font-family: 'Varela-Regular', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 1.21;
-    margin: 50px 0 50px 150px;
+  font-family: 'Varela-Regular', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.21;
+  margin: 0 auto;
+  text-align: center;
 }

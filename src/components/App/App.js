@@ -9,13 +9,7 @@ import Rabbits from '../Rabbits/Rabbits';
 import Horses from '../Horses/Horses';
 import Dogs from '../Dogs/Dogs';
 import ImagePopup from '../ImagePopup/ImagePopup';
-import {
-  useLocation,
-  Switch,
-  withRouter,
-  Route,
-  Redirect,
-} from 'react-router-dom';
+import { useLocation, Switch, withRouter, Route, Redirect } from 'react-router-dom';
 import { useState } from 'react';
 
 function App() {
@@ -66,11 +60,7 @@ function App() {
         </Route>
       </Switch>
       <Footer />
-      <ImagePopup
-        onClose={closePopup}
-        openPopupImg={openPopupImg}
-        dataCard={selectedCard}
-      />
+      <ImagePopup onClose={closePopup} openPopupImg={openPopupImg} dataCard={selectedCard} />
     </div>
   );
 }

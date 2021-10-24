@@ -1,80 +1,185 @@
 .main {
-    min-height: 700px;
-    padding: 60px 0;
+  /* min-height: 700px; */
+  padding: 60px 30px;
 }
 
 .main__main {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .main__title {
-    font-family: 'Varela-Regular', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 1.21;
-    margin: 0 auto;
-    width: 80%;
-    text-align: center;
+  font-family: 'Varela-Regular', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.21;
+  margin: 0 auto;
+  width: 95%;
+  text-align: center;
 }
 .main__subtitle {
-    font-family: 'Varela-Regular', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 1.21;
-    text-align: center;
-    margin: 10px auto 30px;
+  font-family: 'Varela-Regular', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.21;
+  text-align: center;
+  margin: 10px auto 50px;
 }
 
-.main__lists{
-    margin: 0;
-    padding-left: 40px;
+.main__lists {
+  margin: 0;
+  padding-left: 40px;
 }
 
 .main__list {
-    list-style: none;
-    margin: 0 0 10px 0;
-    padding-left: 1em;
+  list-style: none;
+  margin: 0 0 10px 0;
+  padding-left: 1em;
 }
 .main__list::before {
-    display: inline-block;
-    content: "-";
-    width: 1em;
-    margin-left: -1em;
+  display: inline-block;
+  content: '-';
+  width: 1em;
+  margin-left: -1em;
 }
-.main__list:last-of-type{
-    margin-bottom: 0;
+.main__list:last-of-type {
+  margin-bottom: 0;
 }
 .main__container-club-tasks {
-    width: 70%;
-    margin: 0 auto;
-    background-color: #F9F9F7;
-    padding: 35px 30px;
-    font-family: 'Varela-Regular', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 1.5;
-    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  width: 85%;
+  margin: 0 auto;
+  background-color: #f9f9f7;
+  padding: 35px 30px;
+  font-family: 'Varela-Regular', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 .main__club-tasks {
-    margin: 0 auto 20px;
+  margin: 0 auto 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .main__title {
+    font-size: 46px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .main__title {
+    font-size: 43px;
+  }
+  .main__subtitle {
+    font-size: 21px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .main {
-        padding: 45px 0;
-    }
-    .main__title {
-        font-size: 40px;
-        width: 90%;
-    }
-    .main__subtitle {
-        font-size: 18px;
-    }
-    .main__container-club-tasks {
-        width: 80%;
-        font-size: 20px;
-    }
+  .main {
+    padding: 45px 0;
+  }
+  .main__title {
+    font-size: 40px;
+    width: 90%;
+  }
+  .main__subtitle {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .main__container-club-tasks {
+    width: 80%;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .main__title {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main__title {
+    font-size: 30px;
+  }
+  .main {
+    padding: 30px 0;
+  }
+  .main__subtitle {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .main__container-club-tasks {
+    font-size: 18px;
+    padding: 30px 25px;
+  }
+  .main__lists {
+    margin: 0;
+    padding-left: 30px;
+  }
+  .main__list {
+    margin-bottom: 8px;
+  }
+  .main__club-tasks {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 514px) {
+  .main__title {
+    font-size: 25px;
+  }
+  .main {
+    padding: 25px 0;
+  }
+  .main__subtitle {
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+  .main__container-club-tasks {
+    font-size: 15px;
+    padding: 27px 22px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .main__title {
+    font-size: 20px;
+  }
+  .main__container-club-tasks {
+    font-size: 13px;
+    padding: 22px 19px;
+  }
+  .main__lists {
+    padding-left: 25px;
+  }
+  .main__list {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .main {
+    padding: 20px 0;
+  }
+  .main__title {
+    font-size: 18px;
+  }
+  .main__subtitle {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .main__container-club-tasks {
+    font-size: 11px;
+    padding: 20px 17px;
+  }
+  .main__lists {
+    padding-left: 20px;
+  }
+  .main__club-tasks {
+    margin-bottom: 13px;
+  }
 }
