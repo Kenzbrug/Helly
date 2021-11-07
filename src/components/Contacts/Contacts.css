@@ -33,7 +33,7 @@
 .contacts__lists {
   list-style: none;
   display: flex;
-  margin: 0 0 0 8%;
+  margin: 0 0 0 35px;
   padding: 0;
 }
 .contacts__list {

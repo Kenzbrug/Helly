@@ -1,22 +1,25 @@
 import './NavBar.css';
 import { NavLink } from 'react-router-dom';
 
-function NavBar({ location }) {
+function NavBar({ location, handleClickMenu, handleCloseClickMenu, hadleToggleDropdownBtn, clickMenu /*clickDropdownBnt*/ }) {
+  // const style = {
+  //   displayNone: {
+  //     display: 'none',
+  //   },
+  //   displayBlock: {
+  //     display: 'block',
+  //   },
+  // };
   return (
     <div className='navbar'>
-      <nav className='navbar__container'>
-        <div className='navbar__dark'></div>
-        <NavLink
-          activeClassName='navbar__link_active'
-          className='navbar__link'
-          exact
-          to='/'
-        >
+      <div className={`navbar__dark ${clickMenu ? 'navbar__dark_active' : ''}`}></div>
+      <div className={`navbar__menu ${clickMenu ? 'navbar__menu_active' : ''}`} onClick={handleClickMenu}></div>
+      <nav className={`navbar__container ${clickMenu ? 'navbar__container_active' : ''}`}>
+        <NavLink activeClassName='navbar__link_active' onClick={handleCloseClickMenu} className='navbar__link' exact to='/'>
           Главная
         </NavLink>
-
         <div
-          className={`navbar__dropdown navbar__link navbar__link_dropdown-block ${
+          className={`navbar__dropdown navbar__link_dropdown-block ${
             location === '/dogs'
               ? 'navbar__link_active'
               : location === '/horses'
@@ -26,21 +29,17 @@ function NavBar({ location }) {
               : ''
           }`}
         >
-          <div className='navbar__dropbtn'>
+          <button className='navbar__dropbtn' onClick={hadleToggleDropdownBtn}>
             Наши питомцы
             <i className='navbar__arrow-down'></i>
-          </div>
-          <div className='navbar__dropdown-content'>
-            <NavLink
-              activeClassName='navbar__link_active'
-              className='navbar__link_dropdown-content'
-              exact
-              to='/dogs'
-            >
+          </button>
+          <div className='navbar__dropdown-content' /*style={clickDropdownBnt ? style.displayBlock : style.displayNone}*/>
+            <NavLink activeClassName='navbar__link_active' onClick={handleCloseClickMenu} className='navbar__link_dropdown-content' exact to='/dogs'>
               Собаки
             </NavLink>
             <NavLink
               activeClassName='navbar__link_active'
+              onClick={handleCloseClickMenu}
               className='navbar__link_dropdown-content'
               exact
               to='/horses'
@@ -49,6 +48,7 @@ function NavBar({ location }) {
             </NavLink>
             <NavLink
               activeClassName='navbar__link_active'
+              onClick={handleCloseClickMenu}
               className='navbar__link_dropdown-content'
               exact
               to='/rabbits'
@@ -57,40 +57,15 @@ function NavBar({ location }) {
             </NavLink>
           </div>
         </div>
-
-        {/* <NavLink
-          activeClassName='navbar__link_active'
-          className='navbar__link'
-          exact
-          to='/our-pats'
-        >
-          Наши питомцы
-        </NavLink> */}
-
-        <NavLink
-          activeClassName='navbar__link_active'
-          className='navbar__link'
-          exact
-          to='/dog-training'
-        >
+        <NavLink activeClassName='navbar__link_active' onClick={handleCloseClickMenu} className='navbar__link' exact to='/dog-training'>
           Дрессировка собак
         </NavLink>
 
-        <NavLink
-          activeClassName='navbar__link_active'
-          className='navbar__link'
-          exact
-          to='/our-puppies'
-        >
+        <NavLink activeClassName='navbar__link_active' onClick={handleCloseClickMenu} className='navbar__link' exact to='/our-puppies'>
           Наши щенки
         </NavLink>
 
-        <NavLink
-          activeClassName='navbar__link_active'
-          className='navbar__link'
-          exact
-          to='/сontacts'
-        >
+        <NavLink activeClassName='navbar__link_active' onClick={handleCloseClickMenu} className='navbar__link' exact to='/сontacts'>
           Контакты
         </NavLink>
       </nav>
