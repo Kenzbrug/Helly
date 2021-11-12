@@ -1,7 +1,7 @@
 import './NavBar.css';
 import { NavLink } from 'react-router-dom';
 
-function NavBar({ location, handleClickMenu, handleCloseClickMenu, hadleToggleDropdownBtn, clickMenu /*clickDropdownBnt*/ }) {
+function NavBar({ location, handleClickMenu, handleCloseClickMenu, hadleToggleDropdownBtn, clickMenu, clickDropdownBnt }) {
   // const style = {
   //   displayNone: {
   //     display: 'none',
@@ -33,7 +33,7 @@ function NavBar({ location, handleClickMenu, handleCloseClickMenu, hadleToggleDr
             Наши питомцы
             <i className='navbar__arrow-down'></i>
           </button>
-          <div className='navbar__dropdown-content' /*{style={clickDropdownBnt ? style.displayBlock : style.displayNone}*/>
+          <div className={`navbar__dropdown-content ${clickDropdownBnt ? 'navbar__dropdown-content_display_block' : ''}`}>
             <NavLink activeClassName='navbar__link_active' onClick={handleCloseClickMenu} className='navbar__link_dropdown-content' exact to='/dogs'>
               Собаки
             </NavLink>
