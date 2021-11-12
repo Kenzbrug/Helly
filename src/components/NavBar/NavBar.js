@@ -19,7 +19,7 @@ function NavBar({ location, handleClickMenu, handleCloseClickMenu, hadleToggleDr
           Главная
         </NavLink>
         <div
-          className={`navbar__dropdown navbar__link_dropdown-block ${
+          className={`navbar__dropdown ${
             location === '/dogs'
               ? 'navbar__link_active'
               : location === '/horses'
@@ -33,7 +33,7 @@ function NavBar({ location, handleClickMenu, handleCloseClickMenu, hadleToggleDr
             Наши питомцы
             <i className='navbar__arrow-down'></i>
           </button>
-          <div className='navbar__dropdown-content' /*style={clickDropdownBnt ? style.displayBlock : style.displayNone}*/>
+          <div className='navbar__dropdown-content' /*{style={clickDropdownBnt ? style.displayBlock : style.displayNone}*/>
             <NavLink activeClassName='navbar__link_active' onClick={handleCloseClickMenu} className='navbar__link_dropdown-content' exact to='/dogs'>
               Собаки
             </NavLink>

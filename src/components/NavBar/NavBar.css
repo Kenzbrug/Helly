@@ -95,6 +95,7 @@
 
 .navbar__dropbtn:hover {
   background-color: #dd9d4c;
+  transition: 0.2s ease-in-out;
 }
 
 .navbar__arrow-down {
@@ -141,7 +142,7 @@
 
 @media screen and (max-width: 1050px) {
   .navbar__link_dropdown-content {
-    /* width: 180px; */
+    transition: 0s ease-in-out;
   }
 }
 
@@ -233,13 +234,22 @@
 
   /* .navbar__dropdown:hover .navbar__dropdown-content {
     display: none;
+  }
+
+  .navbar__dropdown:not(.navbar__dropdown):hover .navbar__dropdown-content {
+    display: none;
   } */
 
   .navbar__dropdown-content {
     position: static;
-    display: block;
+    /* display: block; */
     width: auto;
   }
+
+  /* .navbar__link_dropdown-block {
+    pointer-events: none;
+    display: block;
+  } */
 }
 
 @media screen and (max-width: 500px) {
