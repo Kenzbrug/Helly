@@ -7,19 +7,11 @@ function Footer() {
       <nav className='footer__links'>
         <ul className='footer__lists'>
           <li className='footer__list'>
-            <a
-              href='https://vk.com/globalelitedogs'
-              target='blank'
-              className='footer__link'
-            >
-              <img
-                src={VkIcon}
-                alt='ВКонтакте'
-                className='footer__social-icon'
-              />
+            <a href='https://vk.com/globalelitedogs' target='blank' className='footer__link'>
+              <img src={VkIcon} alt='ВКонтакте' className='footer__social-icon' />
             </a>
           </li>
-          <li className='footer__list'>
+          {/* <li className='footer__list'>
             <a
               href='https://www.instagram.com/globalelitedogs/'
               target='blank'
@@ -31,7 +23,7 @@ function Footer() {
                 className='footer__social-icon'
               />
             </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
       <h4 className='footer__author'>&copy;2021 Helly</h4>
