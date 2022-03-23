@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/helly/static/css/main.5231b247.chunk.css",
-    "main.js": "/helly/static/js/main.0f576cf8.chunk.js",
-    "main.js.map": "/helly/static/js/main.0f576cf8.chunk.js.map",
+    "main.js": "/helly/static/js/main.a3c0aecb.chunk.js",
+    "main.js.map": "/helly/static/js/main.a3c0aecb.chunk.js.map",
     "runtime-main.js": "/helly/static/js/runtime-main.9a93dd1c.js",
     "runtime-main.js.map": "/helly/static/js/runtime-main.9a93dd1c.js.map",
     "static/js/2.30be18ca.chunk.js": "/helly/static/js/2.30be18ca.chunk.js",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.9a93dd1c.js",
     "static/js/2.30be18ca.chunk.js",
     "static/css/main.5231b247.chunk.css",
-    "static/js/main.0f576cf8.chunk.js"
+    "static/js/main.a3c0aecb.chunk.js"
   ]
 }
